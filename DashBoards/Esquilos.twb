@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1108.0821                               -->
+<workbook original-version='18.1' source-build='2022.3.1 (20223.22.1108.0821)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='tabela_esquilos_presto2 (projeto_gold.tabela_esquilos_presto2) (projeto_gold)' inline='true' name='federated.0t1rupz0i3qioz0zzv46i13j7n91' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='presto.13xj34o038hbny1ce7fwv0ep623j'>
+            <connection authentication='No Authentication' class='presto' dbname='hive' one-time-sql='' port='8080' schema='projeto_gold' server='localhost' sslmode='' username='test' warehouse=''>
+              <connection-customization class='presto' enabled='false' version='18.1'>
+                <vendor name='presto' />
+                <driver name='presto' />
+                <customizations>
+                  <customization name='CAP_AUTH_DB_IMPERSONATE' value='no' />
+                  <customization name='CAP_AUTH_KERBEROS_IMPERSONATE' value='no' />
+                  <customization name='CAP_COLLECT_TABLE_STATISTICS' value='no' />
+                  <customization name='CAP_CONNECT_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_CREATE_TEMP_TABLES' value='no' />
+                  <customization name='CAP_DATASERVER_MAGIC_NUMBER' value='no' />
+                  <customization name='CAP_DEFERS_CONNECTION_VERIFICATION' value='no' />
+                  <customization name='CAP_DISABLE_EXTRACT_TABLE_INDEXING' value='no' />
+                  <customization name='CAP_EQUALITY_JOINS_ONLY' value='no' />
+                  <customization name='CAP_EQUIJOINS_ONLY' value='no' />
+                  <customization name='CAP_FAST_METADATA' value='no' />
+                  <customization name='CAP_FORCE_COUNT_FOR_NUMBEROFRECORDS' value='no' />
+                  <customization name='CAP_GREENPLUM_TRUST_METADATA_CONTAINSNULL' value='no' />
+                  <customization name='CAP_HIVE_FIX_METADATA_NAMES' value='no' />
+                  <customization name='CAP_INDEX_TEMP_TABLES' value='no' />
+                  <customization name='CAP_INSERT_TEMP_EXEC_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_JDBC_QUERY_USE_PREPARE_PARAMETER_MARKER' value='no' />
+                  <customization name='CAP_LOCAL_ALIASES_CASE_INSENSITIVE' value='no' />
+                  <customization name='CAP_ODBC_ALWAYS_THROW_CONNECT_ERRORS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATETIME_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATE_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MAX_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MEDIUM_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SIGNED' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SMALL_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_INT64' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_PREFERRED_TYPES' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_WIDE_CHAR' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_DYNAMIC' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_FORWARD_ONLY' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_KEYSET_DRIVEN' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_STATIC' value='no' />
+                  <customization name='CAP_ODBC_DRIVER_HIVE_ASSUME_LATEST' value='no' />
+                  <customization name='CAP_ODBC_ERROR_IGNORE_FALSE_ALARM' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_RESIZABLE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_SIZE_MASSIVE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_CONTINUE_ON_ERROR' value='no' />
+                  <customization name='CAP_ODBC_FORCE_SINGLE_ROW_BINDING' value='no' />
+                  <customization name='CAP_ODBC_METADATA_STRING_LENGTH_UNKNOWN' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLCOLUMNS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLFOREIGNKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLPRIMARYKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLSTATISTICS_API' value='no' />
+                  <customization name='CAP_ODBC_QUERY_USE_PREPARE_PARAMETER_MARKER' value='no' />
+                  <customization name='CAP_ODBC_REBIND_SKIP_UNBIND' value='no' />
+                  <customization name='CAP_ODBC_TRIM_VARCHAR_PADDING' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_AUTO' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_BATCH' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_EACH' value='no' />
+                  <customization name='CAP_ODBC_USE_NATIVE_PROTOCOL' value='no' />
+                  <customization name='CAP_PADDED_SEMANTICS_NCHAR_NVARCHAR' value='no' />
+                  <customization name='CAP_PERSIST_SQL_RELATION_ON_LEAF_CONNECTION' value='no' />
+                  <customization name='CAP_QUERY_ALLOW_JOIN_REORDER' value='yes' />
+                  <customization name='CAP_QUERY_ALLOW_PARTIAL_AGGREGATION' value='yes' />
+                  <customization name='CAP_QUERY_ALWAYS_USE_AQ_CACHE' value='no' />
+                  <customization name='CAP_QUERY_AVOID_EXPRESSION_INLINING' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_ALWAYS_USE_LOCAL_MAPPING_TABLES' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_PREFER_LOCAL_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BLENDING_REMOTE_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BOOLEXPR_TO_INTEXPR' value='no' />
+                  <customization name='CAP_QUERY_BOOL_IDENTIFIER_TO_LOGICAL' value='no' />
+                  <customization name='CAP_QUERY_CAST_MONEY_AS_NUMERIC' value='no' />
+                  <customization name='CAP_QUERY_EMPTY_DOMAIN_TOP' value='no' />
+                  <customization name='CAP_QUERY_FORCE_AGGREGATE_MEASURES' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_ALIAS' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_DEGREE' value='yes' />
+                  <customization name='CAP_QUERY_HAVING_REQUIRES_GROUP_BY' value='no' />
+                  <customization name='CAP_QUERY_HAVING_UNSUPPORTED' value='no' />
+                  <customization name='CAP_QUERY_IGNORE_HINT_CHECK_NOT_NULL' value='no' />
+                  <customization name='CAP_QUERY_IGNORE_HINT_MAKE_DOMAIN_PREDICATE' value='no' />
+                  <customization name='CAP_QUERY_JOIN_ACROSS_SCHEMAS' value='yes' />
+                  <customization name='CAP_QUERY_JOIN_ASSUME_CONSTRAINED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_PUSH_DOWN_CONDITION_EXPRESSIONS' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SCOPE' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SUBQUERY' value='no' />
+                  <customization name='CAP_QUERY_MINMAX_FORCE_GROUPBYS' value='no' />
+                  <customization name='CAP_QUERY_NULL_REQUIRES_CAST' value='yes' />
+                  <customization name='CAP_QUERY_OUTER_JOIN_CONDITION_NO_TRIVIAL' value='no' />
+                  <customization name='CAP_QUERY_RECOMPILE_FAILED_QUERY' value='no' />
+                  <customization name='CAP_QUERY_SELECT_ALIASES_SORTED' value='no' />
+                  <customization name='CAP_QUERY_SORT_BY' value='yes' />
+                  <customization name='CAP_QUERY_SORT_BY_DEGREE' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP_ALTERNATIVE' value='no' />
+                  <customization name='CAP_QUERY_SUBQUERY_QUERY_CONTEXT' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORTS_LODJOINS' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORT_ANALYTIC_FUNCTIONS' value='no' />
+                  <customization name='CAP_QUERY_SUPPORT_EMPTY_GROUPBY' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_CHECK_DOMAIN_LITERALS_THRESHOLD' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_NULL_CHECK_QUERIES' value='no' />
+                  <customization name='CAP_QUERY_TAGS_IN_SQL_TEXT' value='no' />
+                  <customization name='CAP_QUERY_TIME_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_LIMIT' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_ROWNUM' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_TOP' value='no' />
+                  <customization name='CAP_QUERY_TOP_0_METADATA' value='yes' />
+                  <customization name='CAP_QUERY_TOP_N' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_EXCEPT_OPTIMIZATION' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_RANGES_OPTIMIZATION' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_RANGES_OPTIMIZATION_STRINGS' value='no' />
+                  <customization name='CAP_QUERY_USE_QUERY_FUSION' value='yes' />
+                  <customization name='CAP_QUERY_WHERE_FALSE_METADATA' value='no' />
+                  <customization name='CAP_RELDATEFILT_CASTTODATE' value='no' />
+                  <customization name='CAP_RENAME_TABLE_USE_LEAF_CONNECTION_DIALECT' value='no' />
+                  <customization name='CAP_SELECT_INTO' value='no' />
+                  <customization name='CAP_SELECT_TOP_INTO' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_PREFER_TEMP_TABLE' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_REPAIR_TEMP_TABLE_STRINGS' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_BUFFER' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_NEW_PROTOCOL' value='no' />
+                  <customization name='CAP_SUPPRESS_CONNECTION_POOLING' value='no' />
+                  <customization name='CAP_SUPPRESS_DISCOVERY_QUERIES' value='no' />
+                  <customization name='CAP_SUPPRESS_ENUMERATE_SCHEMAS_VIA_SQL' value='no' />
+                  <customization name='CAP_SUPPRESS_ENUMERATE_TABLES_VIA_SQL' value='no' />
+                  <customization name='CAP_SUPPRESS_GET_SERVER_TIME' value='yes' />
+                  <customization name='CAP_SUPPRESS_QUICK_FILTER_ACCELERATION_VIEWS' value='no' />
+                  <customization name='CAP_SUPPRESS_TEMP_TABLE_CHECKS' value='no' />
+                </customizations>
+              </connection-customization>
+            </connection>
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='presto.13xj34o038hbny1ce7fwv0ep623j' name='tabela_esquilos_pr' table='[projeto_gold].[tabela_esquilos_presto2]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='presto.13xj34o038hbny1ce7fwv0ep623j' name='tabela_esquilos_pr' table='[projeto_gold].[tabela_esquilos_presto2]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>shift</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[shift]</local-name>
+            <parent-name>[tabela_esquilos_pr]</parent-name>
+            <remote-alias>shift</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabela_esquilos_presto2 (projeto_gold.tabela_esquilos_presto2)_6D390D26452F483BA940200BD7F7286B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[tabela_esquilos_pr]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabela_esquilos_presto2 (projeto_gold.tabela_esquilos_presto2)_6D390D26452F483BA940200BD7F7286B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contagem</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contagem]</local-name>
+            <parent-name>[tabela_esquilos_pr]</parent-name>
+            <remote-alias>contagem</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabela_esquilos_presto2 (projeto_gold.tabela_esquilos_presto2)_6D390D26452F483BA940200BD7F7286B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='tabela_esquilos_pr' datatype='table' name='[__tableau_internal_object_id__].[tabela_esquilos_presto2 (projeto_gold.tabela_esquilos_presto2)_6D390D26452F483BA940200BD7F7286B]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='string' name='[age]' role='dimension' type='nominal' />
+      <column caption='Contagem' datatype='integer' name='[contagem]' role='measure' type='quantitative' />
+      <column caption='Shift' datatype='string' name='[shift]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;PT&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='tabela_esquilos_pr' id='tabela_esquilos_presto2 (projeto_gold.tabela_esquilos_presto2)_6D390D26452F483BA940200BD7F7286B'>
+            <properties context=''>
+              <relation connection='presto.13xj34o038hbny1ce7fwv0ep623j' name='tabela_esquilos_pr' table='[projeto_gold].[tabela_esquilos_presto2]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Planilha 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tabela_esquilos_presto2 (projeto_gold.tabela_esquilos_presto2) (projeto_gold)' name='federated.0t1rupz0i3qioz0zzv46i13j7n91' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0t1rupz0i3qioz0zzv46i13j7n91'>
+            <column caption='Age' datatype='string' name='[age]' role='dimension' type='nominal' />
+            <column caption='Contagem' datatype='integer' name='[contagem]' role='measure' type='quantitative' />
+            <column-instance column='[age]' derivation='None' name='[none:age:nk]' pivot='key' type='nominal' />
+            <column-instance column='[shift]' derivation='None' name='[none:shift:nk]' pivot='key' type='nominal' />
+            <column caption='Shift' datatype='string' name='[shift]' role='dimension' type='nominal' />
+            <column-instance column='[contagem]' derivation='Sum' name='[sum:contagem:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0t1rupz0i3qioz0zzv46i13j7n91].[none:age:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:age:nk]' />
+              <groupfilter function='member' level='[none:age:nk]' member='&quot;?&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0t1rupz0i3qioz0zzv46i13j7n91].[none:age:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f28e2b' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0t1rupz0i3qioz0zzv46i13j7n91].[sum:contagem:qk]</rows>
+        <cols>([federated.0t1rupz0i3qioz0zzv46i13j7n91].[none:age:nk] / [federated.0t1rupz0i3qioz0zzv46i13j7n91].[none:shift:nk])</cols>
+      </table>
+      <simple-id uuid='{A664BF72-575F-4C67-8A0C-1CFDE9D7CE43}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Planilha 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0t1rupz0i3qioz0zzv46i13j7n91].[none:age:nk]</field>
+            <field>[federated.0t1rupz0i3qioz0zzv46i13j7n91].[none:shift:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A70B58D8-FCE2-4817-82A8-64D74E8B5FE8}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Planilha 1' width='192'>
+      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
+      aR0NZT7KKyrx+54+Vfq4cNVGqqM+KqsqiQT9Di+BSXfzTdo6u1nQNUKBCjZuLKOkoorykgiq
+      8uzta926aq5f62bL1mow82RtD1VVFXi1R6tsec167nbepOXWdXyl9aAofNXLeGv2NKiZS6Nr
+      QQIeBSydVNbGpxnMJpIEgyHCJWHyyTnmMwahQJBwNEA2pRMK+8kk55nPWtRUlqEs80EtJ5m8
+      fzAXiXy1LUpqfpZkzqaysgKPYhGfmcFSfQSCAcLBAJnkPIovTMCnkc8kSSSzlFdUYORzBINB
+      crksHq+PbDZLOBQgncoSDAXJJOeYT+cpLa8g6PvqOwCxWIza2toCprTJpZMk5lP4QlHKomFM
+      PcNMfA5/qISSsI983ibghZRuE/Jp5HSTgP/BPR22STyRpLSsBFWB1HyCVN4mFAgQCvnI5EzC
+      AR/J+TipvE1VVQWmnkfVvHi0wr7Xn7oOYJrmqp+2y2QyWJZFOBxe1TqKJZ2+f0ZprVwHmJ6e
+      pqqqarXLKAq/3//kdYBcLkc2m11q+hWRz+exLIvnbMP0tT18us2yrGWmfDHkcrnFrdpa8EQA
+      QqHQqn9TrbUrwV93F+h5pes6FRUVq11G0azZg2AhCiEBEK4mARCuJgEQriYBEK4mARCuJgEQ
+      rla8m+Fsm4XZcQamchzYteX+j4wst75o4aVXDhFRDdqbb5HxVnHkwE7ILdDc1IxSWs/BPVvR
+      VvnWy3z7P2InRorSllK6Ad++7xWlLeGsogXASM3Q3X+Pmax5PwC2zb073YxNzbI+a5AYacK3
+      YR/r0z00D8wSmu2gesdhGG+mZ7SaPfWre+HL6P4F5t1rRWlL23BYAvCCKFoAPJEqDh8M8dnN
+      VgD01BR3Fzxs31AB2CQWFLbvKyXMDvquDqHYQbZWhsG/lY7+Kaz1YSzLwjRNDMNA1/VilVaQ
+      Yt56Ydv2Yv0P761a6eVximmaa2ZZwMHnAW5+dokprYzhibsE5jW2eU1M28a2dSw0sLP3Vzrb
+      wEZFURQ0TUNVVTRNQ9OefWtvsf2WN30+1djD+jVNw7btFV8epzz8fNaKogVAzySZnIwxl0gQ
+      m57ltbe/h6pA9+3rlGzdi2e2h/bmbiKZMapfOo5/so3Orn7smSGq972xeNuxoigoioKqrvTx
+      efESoMAT9a/O8jhjLS0LFDEAppFnIZ1nx5ZNLKQyVFUACmzcvgtP0IevZB/mvWHyngM0VAeh
+      8hDayDBK9RHqy33Lti+EE4oWgEC0gl27n75LMFxSuvj/uobHHsPTvGzcsr1Y3QvxtaydbZkQ
+      X4MEQLiaBEC4mgRAuJoEQLiaBEC4mgRAuJoEQLiaBEC4mgRAuJoEQLiaBEC4mgRAuJoEQLia
+      BEC4mgRAuJoEQLiaBEC4mgRAuJoEQLha0R6Kt40szdevMJAK8t3zJ0lODXG1uQ/MPFVbD7Gj
+      PMdnN7qwLJvXzpxHne7jescw4OHE6dOU+SWLYuUVb1gUXWfT3iPMdXYDECiv59y5zejJUa63
+      JRiZmeLVsxeoNO9xpX2IqD7L62cvoCTu0H1ngiN71xerFCEKVryhEYNRyrT0o9eaxuxYP639
+      kxw4fJjhpjnCfhWVMrz6HUz8+LwKBEtQ9eQTwyIahkE+ny9WaQWx7OL9FUfLthfrNwwDYMWX
+      xymmaa6ZZQEHh0bMxu/SdjfNieOv4fMoTHrzzKUMvPokRqiSYGaEdNZEnZ+BYBWqqqKqKrqu
+      oygKPt/KDpZlKCrF+gvJ6mP1P1xZVnp5nKJp2ppZFihiAJJTI9xo7mJ8Ok6jP0KNNc1cwuTy
+      pUmqG3axY+cOGhsvkrd9nHzrFErc5tpnF8ET5uQbe4pVhhBfSdECEKlu4PS5hid+9tKXpjlz
+      ft2jF7WbOXd+c7G6F+JrkVMvwtUkAMLVHDsILhZzshs7myhKW4o/ila7tyhtibXhuQ9A7sqf
+      Yg43FqUtbf0rhN7/SVHaEmuD7AIJV5MACFeTAAhXkwAIV5MACFeTAAhXkwAIV5MACFeTAAhX
+      kwAIV5MACFeTAAhXkwAIV5MACFeTAAhXkwAIV5MACFcr6tCITdeuMJAO8m/OnyS/MMFvPr0F
+      qsLeY29SYU5y+YtuLMvm6OnzqNO93OgcAVvjxOkzlAUki2LlFS0Alq6zZd8R5jvuD414t7OX
+      /WffZr06zZWmEVL2FEfPXqBicWjE+P2hEefu0N0vQyOK1VG0AGjBKKWPDY2YNrzUBFVUwnjN
+      MfL4CP1LQyMGnj00om0VcchCy1pyWD8ZGrEwMjRigUqCBlNzOkE1ju4LU2HPk0gaeIxJzFAl
+      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
+      RK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

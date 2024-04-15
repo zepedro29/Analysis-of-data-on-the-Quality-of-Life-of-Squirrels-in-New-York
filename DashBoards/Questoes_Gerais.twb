@@ -1,0 +1,1264 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1108.0821                               -->
+<workbook original-version='18.1' source-build='2022.3.1 (20223.22.1108.0821)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='drinkingfountains_presto3 (projeto_gold.drinkingfountains_presto3)+ (projeto_gold)' inline='true' name='federated.0n94zfw1624clw10a19kq0yof54v' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='presto.0fy9zh5058gx9x1cix2gt03ei8lr'>
+            <connection authentication='No Authentication' class='presto' dbname='hive' one-time-sql='' port='8080' schema='projeto_gold' server='localhost' sslmode='' username='test' warehouse=''>
+              <connection-customization class='presto' enabled='false' version='18.1'>
+                <vendor name='presto' />
+                <driver name='presto' />
+                <customizations>
+                  <customization name='CAP_AUTH_DB_IMPERSONATE' value='no' />
+                  <customization name='CAP_AUTH_KERBEROS_IMPERSONATE' value='no' />
+                  <customization name='CAP_COLLECT_TABLE_STATISTICS' value='no' />
+                  <customization name='CAP_CONNECT_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_CREATE_TEMP_TABLES' value='no' />
+                  <customization name='CAP_DATASERVER_MAGIC_NUMBER' value='no' />
+                  <customization name='CAP_DEFERS_CONNECTION_VERIFICATION' value='no' />
+                  <customization name='CAP_DISABLE_EXTRACT_TABLE_INDEXING' value='no' />
+                  <customization name='CAP_EQUALITY_JOINS_ONLY' value='no' />
+                  <customization name='CAP_EQUIJOINS_ONLY' value='no' />
+                  <customization name='CAP_FAST_METADATA' value='no' />
+                  <customization name='CAP_FORCE_COUNT_FOR_NUMBEROFRECORDS' value='no' />
+                  <customization name='CAP_GREENPLUM_TRUST_METADATA_CONTAINSNULL' value='no' />
+                  <customization name='CAP_HIVE_FIX_METADATA_NAMES' value='no' />
+                  <customization name='CAP_INDEX_TEMP_TABLES' value='no' />
+                  <customization name='CAP_INSERT_TEMP_EXEC_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_JDBC_QUERY_USE_PREPARE_PARAMETER_MARKER' value='no' />
+                  <customization name='CAP_LOCAL_ALIASES_CASE_INSENSITIVE' value='no' />
+                  <customization name='CAP_ODBC_ALWAYS_THROW_CONNECT_ERRORS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATETIME_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATE_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MAX_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MEDIUM_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SIGNED' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SMALL_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_INT64' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_PREFERRED_TYPES' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_WIDE_CHAR' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_DYNAMIC' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_FORWARD_ONLY' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_KEYSET_DRIVEN' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_STATIC' value='no' />
+                  <customization name='CAP_ODBC_DRIVER_HIVE_ASSUME_LATEST' value='no' />
+                  <customization name='CAP_ODBC_ERROR_IGNORE_FALSE_ALARM' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_RESIZABLE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_SIZE_MASSIVE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_CONTINUE_ON_ERROR' value='no' />
+                  <customization name='CAP_ODBC_FORCE_SINGLE_ROW_BINDING' value='no' />
+                  <customization name='CAP_ODBC_METADATA_STRING_LENGTH_UNKNOWN' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLCOLUMNS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLFOREIGNKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLPRIMARYKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLSTATISTICS_API' value='no' />
+                  <customization name='CAP_ODBC_QUERY_USE_PREPARE_PARAMETER_MARKER' value='no' />
+                  <customization name='CAP_ODBC_REBIND_SKIP_UNBIND' value='no' />
+                  <customization name='CAP_ODBC_TRIM_VARCHAR_PADDING' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_AUTO' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_BATCH' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_EACH' value='no' />
+                  <customization name='CAP_ODBC_USE_NATIVE_PROTOCOL' value='no' />
+                  <customization name='CAP_PADDED_SEMANTICS_NCHAR_NVARCHAR' value='no' />
+                  <customization name='CAP_PERSIST_SQL_RELATION_ON_LEAF_CONNECTION' value='no' />
+                  <customization name='CAP_QUERY_ALLOW_JOIN_REORDER' value='yes' />
+                  <customization name='CAP_QUERY_ALLOW_PARTIAL_AGGREGATION' value='yes' />
+                  <customization name='CAP_QUERY_ALWAYS_USE_AQ_CACHE' value='no' />
+                  <customization name='CAP_QUERY_AVOID_EXPRESSION_INLINING' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_ALWAYS_USE_LOCAL_MAPPING_TABLES' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_PREFER_LOCAL_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BLENDING_REMOTE_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BOOLEXPR_TO_INTEXPR' value='no' />
+                  <customization name='CAP_QUERY_BOOL_IDENTIFIER_TO_LOGICAL' value='no' />
+                  <customization name='CAP_QUERY_CAST_MONEY_AS_NUMERIC' value='no' />
+                  <customization name='CAP_QUERY_EMPTY_DOMAIN_TOP' value='no' />
+                  <customization name='CAP_QUERY_FORCE_AGGREGATE_MEASURES' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_ALIAS' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_DEGREE' value='yes' />
+                  <customization name='CAP_QUERY_HAVING_REQUIRES_GROUP_BY' value='no' />
+                  <customization name='CAP_QUERY_HAVING_UNSUPPORTED' value='no' />
+                  <customization name='CAP_QUERY_IGNORE_HINT_CHECK_NOT_NULL' value='no' />
+                  <customization name='CAP_QUERY_IGNORE_HINT_MAKE_DOMAIN_PREDICATE' value='no' />
+                  <customization name='CAP_QUERY_JOIN_ACROSS_SCHEMAS' value='yes' />
+                  <customization name='CAP_QUERY_JOIN_ASSUME_CONSTRAINED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_PUSH_DOWN_CONDITION_EXPRESSIONS' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SCOPE' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SUBQUERY' value='no' />
+                  <customization name='CAP_QUERY_MINMAX_FORCE_GROUPBYS' value='no' />
+                  <customization name='CAP_QUERY_NULL_REQUIRES_CAST' value='yes' />
+                  <customization name='CAP_QUERY_OUTER_JOIN_CONDITION_NO_TRIVIAL' value='no' />
+                  <customization name='CAP_QUERY_RECOMPILE_FAILED_QUERY' value='no' />
+                  <customization name='CAP_QUERY_SELECT_ALIASES_SORTED' value='no' />
+                  <customization name='CAP_QUERY_SORT_BY' value='yes' />
+                  <customization name='CAP_QUERY_SORT_BY_DEGREE' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP_ALTERNATIVE' value='no' />
+                  <customization name='CAP_QUERY_SUBQUERY_QUERY_CONTEXT' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORTS_LODJOINS' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORT_ANALYTIC_FUNCTIONS' value='no' />
+                  <customization name='CAP_QUERY_SUPPORT_EMPTY_GROUPBY' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_CHECK_DOMAIN_LITERALS_THRESHOLD' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_NULL_CHECK_QUERIES' value='no' />
+                  <customization name='CAP_QUERY_TAGS_IN_SQL_TEXT' value='no' />
+                  <customization name='CAP_QUERY_TIME_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_LIMIT' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_ROWNUM' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_TOP' value='no' />
+                  <customization name='CAP_QUERY_TOP_0_METADATA' value='yes' />
+                  <customization name='CAP_QUERY_TOP_N' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_EXCEPT_OPTIMIZATION' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_RANGES_OPTIMIZATION' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_RANGES_OPTIMIZATION_STRINGS' value='no' />
+                  <customization name='CAP_QUERY_USE_QUERY_FUSION' value='yes' />
+                  <customization name='CAP_QUERY_WHERE_FALSE_METADATA' value='no' />
+                  <customization name='CAP_RELDATEFILT_CASTTODATE' value='no' />
+                  <customization name='CAP_RENAME_TABLE_USE_LEAF_CONNECTION_DIALECT' value='no' />
+                  <customization name='CAP_SELECT_INTO' value='no' />
+                  <customization name='CAP_SELECT_TOP_INTO' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_PREFER_TEMP_TABLE' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_REPAIR_TEMP_TABLE_STRINGS' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_BUFFER' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_NEW_PROTOCOL' value='no' />
+                  <customization name='CAP_SUPPRESS_CONNECTION_POOLING' value='no' />
+                  <customization name='CAP_SUPPRESS_DISCOVERY_QUERIES' value='no' />
+                  <customization name='CAP_SUPPRESS_ENUMERATE_SCHEMAS_VIA_SQL' value='no' />
+                  <customization name='CAP_SUPPRESS_ENUMERATE_TABLES_VIA_SQL' value='no' />
+                  <customization name='CAP_SUPPRESS_GET_SERVER_TIME' value='yes' />
+                  <customization name='CAP_SUPPRESS_QUICK_FILTER_ACCELERATION_VIEWS' value='no' />
+                  <customization name='CAP_SUPPRESS_TEMP_TABLE_CHECKS' value='no' />
+                </customizations>
+              </connection-customization>
+            </connection>
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='presto.0fy9zh5058gx9x1cix2gt03ei8lr' name='drinkingfountains_' table='[projeto_gold].[drinkingfountains_presto3]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='presto.0fy9zh5058gx9x1cix2gt03ei8lr' name='drinkingfountains_' table='[projeto_gold].[drinkingfountains_presto3]' type='table' />
+          <relation connection='presto.0fy9zh5058gx9x1cix2gt03ei8lr' name='tabela_arvores_pre' table='[projeto_gold].[tabela_arvores_presto]' type='table' />
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[boroname]' value='[tabela_arvores_pre].[boroname]' />
+          <map key='[borough]' value='[drinkingfountains_].[borough]' />
+          <map key='[contagem (tabela_arvores_pre)]' value='[tabela_arvores_pre].[contagem]' />
+          <map key='[contagem]' value='[drinkingfountains_].[contagem]' />
+          <map key='[featuresta]' value='[drinkingfountains_].[featuresta]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>featuresta</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[featuresta]</local-name>
+            <parent-name>[drinkingfountains_]</parent-name>
+            <remote-alias>featuresta</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>250</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[drinkingfountains_presto3 (projeto_gold.drinkingfountains_presto3)_16EAA4896E3B403FB7EC51BAE0817463]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>borough</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[borough]</local-name>
+            <parent-name>[drinkingfountains_]</parent-name>
+            <remote-alias>borough</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>500</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[drinkingfountains_presto3 (projeto_gold.drinkingfountains_presto3)_16EAA4896E3B403FB7EC51BAE0817463]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contagem</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contagem]</local-name>
+            <parent-name>[drinkingfountains_]</parent-name>
+            <remote-alias>contagem</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[drinkingfountains_presto3 (projeto_gold.drinkingfountains_presto3)_16EAA4896E3B403FB7EC51BAE0817463]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>boroname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[boroname]</local-name>
+            <parent-name>[tabela_arvores_pre]</parent-name>
+            <remote-alias>boroname</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>250</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabela_arvores_presto (projeto_gold.tabela_arvores_presto)_4D7C867D9B474A6B886BE51289C61A88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contagem</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contagem (tabela_arvores_pre)]</local-name>
+            <parent-name>[tabela_arvores_pre]</parent-name>
+            <remote-alias>contagem</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabela_arvores_presto (projeto_gold.tabela_arvores_presto)_4D7C867D9B474A6B886BE51289C61A88]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='drinkingfountains_' datatype='table' name='[__tableau_internal_object_id__].[drinkingfountains_presto3 (projeto_gold.drinkingfountains_presto3)_16EAA4896E3B403FB7EC51BAE0817463]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='tabela_arvores_pre' datatype='table' name='[__tableau_internal_object_id__].[tabela_arvores_presto (projeto_gold.tabela_arvores_presto)_4D7C867D9B474A6B886BE51289C61A88]' role='measure' type='quantitative' />
+      <column caption='Boroname' datatype='string' name='[boroname]' role='dimension' type='nominal' />
+      <column caption='Borough' datatype='string' name='[borough]' role='dimension' type='nominal' />
+      <column caption='Contagem (Tabela Arvores Pre)' datatype='integer' name='[contagem (tabela_arvores_pre)]' role='measure' type='quantitative' />
+      <column caption='Contagem' datatype='integer' name='[contagem]' role='measure' type='quantitative' />
+      <column caption='Featuresta' datatype='string' name='[featuresta]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;PT&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='drinkingfountains_' id='drinkingfountains_presto3 (projeto_gold.drinkingfountains_presto3)_16EAA4896E3B403FB7EC51BAE0817463'>
+            <properties context=''>
+              <relation connection='presto.0fy9zh5058gx9x1cix2gt03ei8lr' name='drinkingfountains_' table='[projeto_gold].[drinkingfountains_presto3]' type='table' />
+            </properties>
+          </object>
+          <object caption='tabela_arvores_pre' id='tabela_arvores_presto (projeto_gold.tabela_arvores_presto)_4D7C867D9B474A6B886BE51289C61A88'>
+            <properties context=''>
+              <relation connection='presto.0fy9zh5058gx9x1cix2gt03ei8lr' name='tabela_arvores_pre' table='[projeto_gold].[tabela_arvores_presto]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[borough]' />
+              <expression op='[boroname]' />
+            </expression>
+            <first-end-point object-id='drinkingfountains_presto3 (projeto_gold.drinkingfountains_presto3)_16EAA4896E3B403FB7EC51BAE0817463' />
+            <second-end-point object-id='tabela_arvores_presto (projeto_gold.tabela_arvores_presto)_4D7C867D9B474A6B886BE51289C61A88' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='tabela_esquilos_presto4 (projeto_gold.tabela_esquilos_presto4)+ (projeto_gold)' inline='true' name='federated.1o4rher1khf0jy10f923h0otn2jj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='presto.00bcgwu1e8wnp11byk9of1865k80'>
+            <connection authentication='No Authentication' class='presto' dbname='hive' one-time-sql='' port='8080' schema='projeto_gold' server='localhost' sslmode='' username='test' warehouse=''>
+              <connection-customization class='presto' enabled='false' version='18.1'>
+                <vendor name='presto' />
+                <driver name='presto' />
+                <customizations>
+                  <customization name='CAP_AUTH_DB_IMPERSONATE' value='no' />
+                  <customization name='CAP_AUTH_KERBEROS_IMPERSONATE' value='no' />
+                  <customization name='CAP_COLLECT_TABLE_STATISTICS' value='no' />
+                  <customization name='CAP_CONNECT_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_CREATE_TEMP_TABLES' value='no' />
+                  <customization name='CAP_DATASERVER_MAGIC_NUMBER' value='no' />
+                  <customization name='CAP_DEFERS_CONNECTION_VERIFICATION' value='no' />
+                  <customization name='CAP_DISABLE_EXTRACT_TABLE_INDEXING' value='no' />
+                  <customization name='CAP_EQUALITY_JOINS_ONLY' value='no' />
+                  <customization name='CAP_EQUIJOINS_ONLY' value='no' />
+                  <customization name='CAP_FAST_METADATA' value='no' />
+                  <customization name='CAP_FORCE_COUNT_FOR_NUMBEROFRECORDS' value='no' />
+                  <customization name='CAP_GREENPLUM_TRUST_METADATA_CONTAINSNULL' value='no' />
+                  <customization name='CAP_HIVE_FIX_METADATA_NAMES' value='no' />
+                  <customization name='CAP_INDEX_TEMP_TABLES' value='no' />
+                  <customization name='CAP_INSERT_TEMP_EXEC_STORED_PROCEDURE' value='no' />
+                  <customization name='CAP_JDBC_QUERY_USE_PREPARE_PARAMETER_MARKER' value='no' />
+                  <customization name='CAP_LOCAL_ALIASES_CASE_INSENSITIVE' value='no' />
+                  <customization name='CAP_ODBC_ALWAYS_THROW_CONNECT_ERRORS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATETIME_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_DATE_AS_CHAR' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MAX_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_MEDIUM_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SIGNED' value='no' />
+                  <customization name='CAP_ODBC_BIND_FORCE_SMALL_STRING_BUFFERS' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_INT64' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_PREFERRED_TYPES' value='no' />
+                  <customization name='CAP_ODBC_BIND_SUPPRESS_WIDE_CHAR' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_DYNAMIC' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_FORWARD_ONLY' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_KEYSET_DRIVEN' value='no' />
+                  <customization name='CAP_ODBC_CURSOR_STATIC' value='no' />
+                  <customization name='CAP_ODBC_DRIVER_HIVE_ASSUME_LATEST' value='no' />
+                  <customization name='CAP_ODBC_ERROR_IGNORE_FALSE_ALARM' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_RESIZABLE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_BUFFERS_SIZE_MASSIVE' value='no' />
+                  <customization name='CAP_ODBC_FETCH_CONTINUE_ON_ERROR' value='no' />
+                  <customization name='CAP_ODBC_FORCE_SINGLE_ROW_BINDING' value='no' />
+                  <customization name='CAP_ODBC_METADATA_STRING_LENGTH_UNKNOWN' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLCOLUMNS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLFOREIGNKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLPRIMARYKEYS_API' value='no' />
+                  <customization name='CAP_ODBC_METADATA_SUPPRESS_SQLSTATISTICS_API' value='no' />
+                  <customization name='CAP_ODBC_QUERY_USE_PREPARE_PARAMETER_MARKER' value='no' />
+                  <customization name='CAP_ODBC_REBIND_SKIP_UNBIND' value='no' />
+                  <customization name='CAP_ODBC_TRIM_VARCHAR_PADDING' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_AUTO' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_BATCH' value='no' />
+                  <customization name='CAP_ODBC_UNBIND_EACH' value='no' />
+                  <customization name='CAP_ODBC_USE_NATIVE_PROTOCOL' value='no' />
+                  <customization name='CAP_PADDED_SEMANTICS_NCHAR_NVARCHAR' value='no' />
+                  <customization name='CAP_PERSIST_SQL_RELATION_ON_LEAF_CONNECTION' value='no' />
+                  <customization name='CAP_QUERY_ALLOW_JOIN_REORDER' value='yes' />
+                  <customization name='CAP_QUERY_ALLOW_PARTIAL_AGGREGATION' value='yes' />
+                  <customization name='CAP_QUERY_ALWAYS_USE_AQ_CACHE' value='no' />
+                  <customization name='CAP_QUERY_AVOID_EXPRESSION_INLINING' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_ALWAYS_USE_LOCAL_MAPPING_TABLES' value='no' />
+                  <customization name='CAP_QUERY_BLENDING_PREFER_LOCAL_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BLENDING_REMOTE_MAPPING_TABLES' value='yes' />
+                  <customization name='CAP_QUERY_BOOLEXPR_TO_INTEXPR' value='no' />
+                  <customization name='CAP_QUERY_BOOL_IDENTIFIER_TO_LOGICAL' value='no' />
+                  <customization name='CAP_QUERY_CAST_MONEY_AS_NUMERIC' value='no' />
+                  <customization name='CAP_QUERY_EMPTY_DOMAIN_TOP' value='no' />
+                  <customization name='CAP_QUERY_FORCE_AGGREGATE_MEASURES' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_ALIAS' value='no' />
+                  <customization name='CAP_QUERY_GROUP_BY_DEGREE' value='yes' />
+                  <customization name='CAP_QUERY_HAVING_REQUIRES_GROUP_BY' value='no' />
+                  <customization name='CAP_QUERY_HAVING_UNSUPPORTED' value='no' />
+                  <customization name='CAP_QUERY_IGNORE_HINT_CHECK_NOT_NULL' value='no' />
+                  <customization name='CAP_QUERY_IGNORE_HINT_MAKE_DOMAIN_PREDICATE' value='no' />
+                  <customization name='CAP_QUERY_JOIN_ACROSS_SCHEMAS' value='yes' />
+                  <customization name='CAP_QUERY_JOIN_ASSUME_CONSTRAINED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_PUSH_DOWN_CONDITION_EXPRESSIONS' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SCOPE' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SUBQUERY' value='no' />
+                  <customization name='CAP_QUERY_MINMAX_FORCE_GROUPBYS' value='no' />
+                  <customization name='CAP_QUERY_NULL_REQUIRES_CAST' value='yes' />
+                  <customization name='CAP_QUERY_OUTER_JOIN_CONDITION_NO_TRIVIAL' value='no' />
+                  <customization name='CAP_QUERY_RECOMPILE_FAILED_QUERY' value='no' />
+                  <customization name='CAP_QUERY_SELECT_ALIASES_SORTED' value='no' />
+                  <customization name='CAP_QUERY_SORT_BY' value='yes' />
+                  <customization name='CAP_QUERY_SORT_BY_DEGREE' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP_ALTERNATIVE' value='no' />
+                  <customization name='CAP_QUERY_SUBQUERY_QUERY_CONTEXT' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORTS_LODJOINS' value='yes' />
+                  <customization name='CAP_QUERY_SUPPORT_ANALYTIC_FUNCTIONS' value='no' />
+                  <customization name='CAP_QUERY_SUPPORT_EMPTY_GROUPBY' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_CHECK_DOMAIN_LITERALS_THRESHOLD' value='no' />
+                  <customization name='CAP_QUERY_SUPPRESS_NULL_CHECK_QUERIES' value='no' />
+                  <customization name='CAP_QUERY_TAGS_IN_SQL_TEXT' value='no' />
+                  <customization name='CAP_QUERY_TIME_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_LIMIT' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_ROWNUM' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_TOP' value='no' />
+                  <customization name='CAP_QUERY_TOP_0_METADATA' value='yes' />
+                  <customization name='CAP_QUERY_TOP_N' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_EXCEPT_OPTIMIZATION' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_RANGES_OPTIMIZATION' value='yes' />
+                  <customization name='CAP_QUERY_USE_DOMAIN_RANGES_OPTIMIZATION_STRINGS' value='no' />
+                  <customization name='CAP_QUERY_USE_QUERY_FUSION' value='yes' />
+                  <customization name='CAP_QUERY_WHERE_FALSE_METADATA' value='no' />
+                  <customization name='CAP_RELDATEFILT_CASTTODATE' value='no' />
+                  <customization name='CAP_RENAME_TABLE_USE_LEAF_CONNECTION_DIALECT' value='no' />
+                  <customization name='CAP_SELECT_INTO' value='no' />
+                  <customization name='CAP_SELECT_TOP_INTO' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_PREFER_TEMP_TABLE' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_REPAIR_TEMP_TABLE_STRINGS' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_BUFFER' value='no' />
+                  <customization name='CAP_STORED_PROCEDURE_TEMP_TABLE_FROM_NEW_PROTOCOL' value='no' />
+                  <customization name='CAP_SUPPRESS_CONNECTION_POOLING' value='no' />
+                  <customization name='CAP_SUPPRESS_DISCOVERY_QUERIES' value='no' />
+                  <customization name='CAP_SUPPRESS_ENUMERATE_SCHEMAS_VIA_SQL' value='no' />
+                  <customization name='CAP_SUPPRESS_ENUMERATE_TABLES_VIA_SQL' value='no' />
+                  <customization name='CAP_SUPPRESS_GET_SERVER_TIME' value='yes' />
+                  <customization name='CAP_SUPPRESS_QUICK_FILTER_ACCELERATION_VIEWS' value='no' />
+                  <customization name='CAP_SUPPRESS_TEMP_TABLE_CHECKS' value='no' />
+                </customizations>
+              </connection-customization>
+            </connection>
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='presto.00bcgwu1e8wnp11byk9of1865k80' name='tabela_esquilos_pr' table='[projeto_gold].[tabela_esquilos_presto4]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='presto.00bcgwu1e8wnp11byk9of1865k80' name='tabela_esquilos_pr' table='[projeto_gold].[tabela_esquilos_presto4]' type='table' />
+          <relation connection='presto.00bcgwu1e8wnp11byk9of1865k80' name='tabelaanimalcondit' table='[projeto_gold].[tabelaanimalcondition3_presto]' type='table' />
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[contagem (tabelaanimalcondit)]' value='[tabelaanimalcondit].[contagem]' />
+          <map key='[contagem]' value='[tabela_esquilos_pr].[contagem]' />
+          <map key='[hectare]' value='[tabela_esquilos_pr].[hectare]' />
+          <map key='[mes_registo]' value='[tabela_esquilos_pr].[mes_registo]' />
+          <map key='[registo_mes]' value='[tabelaanimalcondit].[registo_mes]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>hectare</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hectare]</local-name>
+            <parent-name>[tabela_esquilos_pr]</parent-name>
+            <remote-alias>hectare</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabela_esquilos_presto4 (projeto_gold.tabela_esquilos_presto4)_8643AE9509C1479789249BEE1ECA059B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contagem</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contagem]</local-name>
+            <parent-name>[tabela_esquilos_pr]</parent-name>
+            <remote-alias>contagem</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabela_esquilos_presto4 (projeto_gold.tabela_esquilos_presto4)_8643AE9509C1479789249BEE1ECA059B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mes_registo</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mes_registo]</local-name>
+            <parent-name>[tabela_esquilos_pr]</parent-name>
+            <remote-alias>mes_registo</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabela_esquilos_presto4 (projeto_gold.tabela_esquilos_presto4)_8643AE9509C1479789249BEE1ECA059B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>registo_mes</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[registo_mes]</local-name>
+            <parent-name>[tabelaanimalcondit]</parent-name>
+            <remote-alias>registo_mes</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelaanimalcondition3_presto (projeto_gold.tabelaanimalcondition3_presto)_04B1C82C65AF49FE81E8F1B42A60DE21]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contagem</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[contagem (tabelaanimalcondit)]</local-name>
+            <parent-name>[tabelaanimalcondit]</parent-name>
+            <remote-alias>contagem</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tabelaanimalcondition3_presto (projeto_gold.tabelaanimalcondition3_presto)_04B1C82C65AF49FE81E8F1B42A60DE21]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='tabela_esquilos_pr' datatype='table' name='[__tableau_internal_object_id__].[tabela_esquilos_presto4 (projeto_gold.tabela_esquilos_presto4)_8643AE9509C1479789249BEE1ECA059B]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='tabelaanimalcondit' datatype='table' name='[__tableau_internal_object_id__].[tabelaanimalcondition3_presto (projeto_gold.tabelaanimalcondition3_presto)_04B1C82C65AF49FE81E8F1B42A60DE21]' role='measure' type='quantitative' />
+      <column caption='Contagem (Tabelaanimalcondit)' datatype='integer' name='[contagem (tabelaanimalcondit)]' role='measure' type='quantitative' />
+      <column caption='Contagem' datatype='integer' name='[contagem]' role='measure' type='quantitative' />
+      <column caption='Hectare' datatype='string' name='[hectare]' role='dimension' type='nominal' />
+      <column caption='Mes Registo' datatype='string' name='[mes_registo]' role='dimension' type='nominal' />
+      <column caption='Registo Mes' datatype='string' name='[registo_mes]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;PT&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='tabela_esquilos_pr' id='tabela_esquilos_presto4 (projeto_gold.tabela_esquilos_presto4)_8643AE9509C1479789249BEE1ECA059B'>
+            <properties context=''>
+              <relation connection='presto.00bcgwu1e8wnp11byk9of1865k80' name='tabela_esquilos_pr' table='[projeto_gold].[tabela_esquilos_presto4]' type='table' />
+            </properties>
+          </object>
+          <object caption='tabelaanimalcondit' id='tabelaanimalcondition3_presto (projeto_gold.tabelaanimalcondition3_presto)_04B1C82C65AF49FE81E8F1B42A60DE21'>
+            <properties context=''>
+              <relation connection='presto.00bcgwu1e8wnp11byk9of1865k80' name='tabelaanimalcondit' table='[projeto_gold].[tabelaanimalcondition3_presto]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[mes_registo]' />
+              <expression op='[registo_mes]' />
+            </expression>
+            <first-end-point object-id='tabela_esquilos_presto4 (projeto_gold.tabela_esquilos_presto4)_8643AE9509C1479789249BEE1ECA059B' />
+            <second-end-point object-id='tabelaanimalcondition3_presto (projeto_gold.tabelaanimalcondition3_presto)_04B1C82C65AF49FE81E8F1B42A60DE21' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Planilha 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontsize='12'>Número de árvores vs Número de fontes por concelho</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='drinkingfountains_presto3 (projeto_gold.drinkingfountains_presto3)+ (projeto_gold)' name='federated.0n94zfw1624clw10a19kq0yof54v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0n94zfw1624clw10a19kq0yof54v'>
+            <column caption='Borough' datatype='string' name='[borough]' role='dimension' type='nominal' />
+            <column caption='Contagem (Tabela Arvores Pre)' datatype='integer' name='[contagem (tabela_arvores_pre)]' role='measure' type='quantitative' />
+            <column caption='Contagem' datatype='integer' name='[contagem]' role='measure' type='quantitative' />
+            <column-instance column='[borough]' derivation='None' name='[none:borough:nk]' pivot='key' type='nominal' />
+            <column-instance column='[contagem (tabela_arvores_pre)]' derivation='Sum' name='[sum:contagem (tabela_arvores_pre):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contagem]' derivation='Sum' name='[sum:contagem:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0n94zfw1624clw10a19kq0yof54v].[sum:contagem (tabela_arvores_pre):qk]' scope='rows' value='Arvores' />
+            <format attr='title' class='0' field='[federated.0n94zfw1624clw10a19kq0yof54v].[sum:contagem:qk]' scope='rows' value='Fontes' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0n94zfw1624clw10a19kq0yof54v].[none:borough:nk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0n94zfw1624clw10a19kq0yof54v].[sum:contagem (tabela_arvores_pre):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0n94zfw1624clw10a19kq0yof54v].[none:borough:nk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0n94zfw1624clw10a19kq0yof54v].[sum:contagem:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0n94zfw1624clw10a19kq0yof54v].[none:borough:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0n94zfw1624clw10a19kq0yof54v].[sum:contagem (tabela_arvores_pre):qk] + [federated.0n94zfw1624clw10a19kq0yof54v].[sum:contagem:qk])</rows>
+        <cols>[federated.0n94zfw1624clw10a19kq0yof54v].[none:borough:nk]</cols>
+      </table>
+      <simple-id uuid='{D56179EA-71F3-4489-AABD-C30192FAB84D}' />
+    </worksheet>
+    <worksheet name='Planilha 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontsize='12'>Esquilos avistados vs Esquilos socorridos</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tabela_esquilos_presto4 (projeto_gold.tabela_esquilos_presto4)+ (projeto_gold)' name='federated.1o4rher1khf0jy10f923h0otn2jj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1o4rher1khf0jy10f923h0otn2jj'>
+            <column caption='Contagem (Tabelaanimalcondit)' datatype='integer' name='[contagem (tabelaanimalcondit)]' role='measure' type='quantitative' />
+            <column caption='Contagem' datatype='integer' name='[contagem]' role='measure' type='quantitative' />
+            <column-instance column='[registo_mes]' derivation='None' name='[none:registo_mes:nk]' pivot='key' type='nominal' />
+            <column caption='Registo Mes' datatype='string' name='[registo_mes]' role='dimension' type='nominal' />
+            <column-instance column='[contagem (tabelaanimalcondit)]' derivation='Sum' name='[sum:contagem (tabelaanimalcondit):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[contagem]' derivation='Sum' name='[sum:contagem:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1o4rher1khf0jy10f923h0otn2jj].[none:registo_mes:nk]'>
+            <groupfilter function='level-members' level='[none:registo_mes:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1o4rher1khf0jy10f923h0otn2jj].[none:registo_mes:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1o4rher1khf0jy10f923h0otn2jj].[sum:contagem:qk]' scope='rows' value='Esquilos avistados' />
+            <format attr='title' class='0' field='[federated.1o4rher1khf0jy10f923h0otn2jj].[sum:contagem (tabelaanimalcondit):qk]' scope='rows' value='Esquilos socorridos ' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='49' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1o4rher1khf0jy10f923h0otn2jj].[sum:contagem:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.8790607452392578' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1o4rher1khf0jy10f923h0otn2jj].[sum:contagem (tabelaanimalcondit):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+          </pane>
+        </panes>
+        <rows>([federated.1o4rher1khf0jy10f923h0otn2jj].[sum:contagem:qk] + [federated.1o4rher1khf0jy10f923h0otn2jj].[sum:contagem (tabelaanimalcondit):qk])</rows>
+        <cols>[federated.1o4rher1khf0jy10f923h0otn2jj].[none:registo_mes:nk]</cols>
+      </table>
+      <simple-id uuid='{19E4A207-3B37-4C79-A030-813459A7B8AC}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Painel 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='47800' x='800' y='1000'>
+              <zone h='98000' id='3' name='Planilha 1' w='47800' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='506' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='50600' x='48600' y='1000'>
+              <zone h='98000' id='9' name='Planilha 2' w='50600' x='48600' y='1000'>
+                <layout-cache cell-count-w='12' minheight='318' non-cell-size-w='78' type-h='scalable' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='10' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Planilha 1' w='47800' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='9' is-fixed='true' name='Planilha 2' w='50600' x='48600' y='1000'>
+                  <layout-cache cell-count-w='12' minheight='318' non-cell-size-w='78' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4F6B3576-4512-4899-9F90-B0EAB2D95B2F}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' maximized='true' name='Planilha 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='169'>
+            <card pane-specification-id='1' param='[federated.0n94zfw1624clw10a19kq0yof54v].[none:borough:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0n94zfw1624clw10a19kq0yof54v].[none:boroname:nk]</field>
+            <field>[federated.0n94zfw1624clw10a19kq0yof54v].[none:borough:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F0EBB3D9-877F-45E3-A6B3-AE1A39230F9D}' />
+    </window>
+    <window class='worksheet' name='Planilha 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='169'>
+            <card param='[federated.1o4rher1khf0jy10f923h0otn2jj].[none:registo_mes:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1o4rher1khf0jy10f923h0otn2jj].[none:mes_registo:nk]</field>
+            <field>[federated.1o4rher1khf0jy10f923h0otn2jj].[none:registo_mes:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9EF13BC6-A2CE-428D-8AD2-7D78EF3A2EFA}' />
+    </window>
+    <window class='dashboard' name='Painel 1'>
+      <viewpoints>
+        <viewpoint name='Planilha 1'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.0n94zfw1624clw10a19kq0yof54v].[none:borough:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Planilha 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{DAE40934-8BCF-48EB-86AB-8649D0555AA7}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Painel 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Planilha 1' width='192'>
+      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
+      +38OxsfWelXxfgAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Planilha 2' width='192'>
+      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
+      mXSGVFbh/wNcfBKhUKGpDAAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
